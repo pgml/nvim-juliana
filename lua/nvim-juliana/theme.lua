@@ -6,7 +6,7 @@
 return function(colors, highlight)
   local C                   = colors
   local default             = { fg = C.fg2, bg = C.bg2 }
-  local muted               = { fg = C.fg3 }
+  local muted               = { fg = C.fg5 }
   local selection           = { bg = C.selection_bg }
   local text_red            = { fg = C.red2 }
   local text_red_italic     = { fg = C.red2, italic = true }
@@ -88,7 +88,7 @@ return function(colors, highlight)
   highlight('MatchParen', { bold = true })
   highlight('DiagnosticError', { fg = C.red1, bg = 'NONE' })
   highlight('DiagnosticSignError', { fg = C.red1, bold = true, bg = 'NONE' })
-  highlight('DiagnosticUnderlineError', {})
+  highlight('DiagnosticUnderlineError', { undercurl = true})
   highlight('DiagnosticVirtualTextError', { fg = C.red1, bg = 'NONE' })
   highlight('DiagnosticHint', { fg = C.cyan1, bg = 'NONE' })
   highlight('DiagnosticSignHint', { fg = C.cyan1, bold = true, bg = 'NONE' })

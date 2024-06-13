@@ -5,6 +5,7 @@ return {
   fg2          = '#d8dee9',
   fg3          = '#a6acb9',
   fg4          = '#46525c',
+  fg5          = '#5f666b',
   bg1          = '#444e59',
   selection_bg = '#3f4750',
   bg2          = '#303841',

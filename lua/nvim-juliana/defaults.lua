@@ -7,9 +7,11 @@ return {
   fg4          = '#46525c',
   fg5          = '#5f666b',
   bg1          = '#444e59',
-  selection_bg = '#3f4750',
+  -- selection_bg = '#3f4750',
+  selection_bg = '#353e48',
   bg2          = '#303841',
   bg3          = '#2e353e',
+	bg4          = '#414954';
   diff_text    = '#373f48',
   diff_add     = '#41525a',
   diff_change  = '#585249',
